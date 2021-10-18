@@ -1,0 +1,71 @@
+/*Iacob Daniel */
+img{
+    border: 4px solid black;
+}
+.produs{
+    display: flex;
+    justify-content: space-between;
+}
+.detalii-generale{
+    display: flex;
+    justify-content:space-around;
+}
+.detalii-produs>ul>li{
+    list-style: none;
+    text-decoration: none;
+    border: 2px solid #00b8e6;
+  padding: 10px;
+  border-radius: 50px 20px;
+}
+
+.chat>div>ul>li{
+    list-style: none;
+    text-decoration: none;
+    background-color:rgba(6, 167, 189, 0.363);
+}
+.chat{
+    border:4px solid #00b8e6;
+}
+
+@media screen and (max-width: 570px) and (min-width: 320px) {
+    img{
+        border: 4px solid black;
+        width: 85%;
+        height: 80%;
+    }
+    .detalii-produs>ul>li{
+        list-style: none;
+        text-decoration: none;
+        border: 2px solid green;
+      padding: 10px;
+      border-radius: 50px 20px;
+    }
+
+    .produs{
+       display: flex;
+       flex-direction: column;
+    }
+
+}
+
+@media  (max-width: 950px){
+    img{
+        border: 4px solid black;
+        width: 50%;
+        height: 60%;
+        
+    }
+    .detalii-produs>ul>li{
+        list-style: none;
+        text-decoration: none;
+        border: 2px solid green;
+      padding: 10px;
+      border-radius: 50px 20px;
+      height: 1rem;
+    }
+
+    .produs{
+       display: flex;
+       flex-direction: column;
+    }
+}
