@@ -1,0 +1,63 @@
+<!--Stativa Vladut-Alexandru -->
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/stillogreg.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <title>PerMa</title>
+</head>
+<body>
+    <main>
+        <div class="register-div">
+            <h1>Register</h1>
+            <form method="POST">
+                <div>
+                    <label for = "user">Username</label>
+                    <input type="text" id = "user" name = "user" required>
+                </div>
+                <div>
+                    <label for = "parola">Parola</label>
+                    <input type="password" id = "parola" name = "parola" required>
+                </div>
+                <div>
+                    <label for = "c_parola">Confirmă parola</label>
+                    <input type="password" id = "c_parola" name = "c_parola" required>
+                </div>
+                <div>
+                    <label for = "email">Email</label>
+                    <input type ="email" id = "email" name = "email" required>
+                </div>
+                <div>
+                    <label for = "c_mail">Confirmă email</label>
+                    <input type="email" id = "c_mail" name = "c_mail" required>
+                </div>
+                <div>
+                    <label for = "bdata">Data nașterii</label>
+                    <input type = "date" id = "bdata" name = "bdata" required>
+                </div>
+                <div>
+                    <fieldset>
+                        <label>Gen</label>
+                        <input type="radio" required name="driver" id="r1" value="Barbat">
+                        <label for="r1">Bărbat</label>
+                        <input type="radio" required name="driver" id="r2" value="Femeie">
+                        <label for="r2">Femeie</label>
+                    </fieldset>
+                </div>
+                <div class="aranjare-buton">
+                    <input type="submit" value="Creare cont">
+                </div>
+            </form>
+            <div class="aranjare-ancora">
+                <a href="login.html">Ai deja cont? Apasă aici pentru logare.</a>
+            </div>
+        </div>
+        <a class = "home_button" href="index_delog.html">Home</a>
+    </main>
+</body>
+</html>

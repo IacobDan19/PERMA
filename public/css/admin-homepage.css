@@ -1,0 +1,26 @@
+/*Iacob Daniel*/
+.alegeri-admin>ul{
+    display: flex;
+    flex-direction:column; 
+
+}
+.alegeri-admin>ul>li{
+    list-style: none;
+     font-size: 1.5rem;
+     border-radius: 25px;
+     padding: 0.5rem;
+     background-color:#1a1aff;
+     margin-bottom: 2rem;
+    
+ }   
+ .alegeri-admin>ul>li>a{
+     text-decoration: none;
+     color:white;
+ }
+ @media screen and (max-width: 800px) and (min-width: 320px) {
+    .alegeri-admin>ul{
+        width: 25rem;
+         background-color:rgb(48, 248, 238);
+
+     }
+ }

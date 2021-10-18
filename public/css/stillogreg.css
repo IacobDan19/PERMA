@@ -1,0 +1,88 @@
+/*Stativa Vladut-Alexandru
+Foaie de stil pentru login si register
+*/
+
+body {
+    margin: 0;
+    background-color: rgb(0, 128, 255);
+    font-family: 'Alegreya', serif;
+}
+
+
+div > h1 {
+    text-align: center;
+}
+
+.register-div, .login-div {
+    background-color: white;
+    position:absolute;
+    width: 360px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aranjare-ancora, .aranjare-buton {
+    text-align: center;
+}
+
+
+input[type="submit"] {
+    font-family: 'Alegreya', serif;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgb(0, 128, 255);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+main > a {
+    color: white;
+}
+
+form {
+    width: 360px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+input {
+    height: 20px;
+    font-size: 18px;
+}
+
+fieldset {
+    border: 0;
+}
+
+.buton_home {
+    position: absolute;
+    left: 1.25%;
+    top: 1.25%;
+    transform: translate(-1.25%, -1.25%);
+}
+
+.home_button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}

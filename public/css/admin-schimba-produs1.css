@@ -1,0 +1,40 @@
+/*Iacob Daniel */
+body {
+    background-color: #00b8e6;
+  }
+  .update{
+    
+      display: flex;
+      flex-direction: column;
+      width: 30rem;
+  
+  }
+  .schimbare{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+  }
+  .schimba-imaginea>p{
+    color:chartreuse;
+  }
+  form{
+    display: flex;
+    justify-content: space-around;
+  }
+  #schimba-produs{
+    background-color: rgba(20, 5, 155, 0.945);
+    color:white;
+    margin-top: 2em;
+  }
+  a{
+    background-color: chartreuse;
+    color:white;
+    text-decoration: none;
+  }
+@media screen and (max-width: 800px) and (min-width: 320px) {
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+
+}

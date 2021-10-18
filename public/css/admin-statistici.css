@@ -1,0 +1,28 @@
+/*Iacob Daniel */
+body {
+    background-color: #00b8e6;
+    
+  }
+h1{
+    border-bottom: 5px solid red;
+    width: 20rem;
+}  
+ul>li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+ul{
+    border: 4px solid black;
+    
+}
+
+main>div{
+    border-bottom: 5px solid #000099;
+}  
+
+a{
+    background-color: chartreuse;
+    color:white;
+    text-decoration: none;
+  }

@@ -1,0 +1,36 @@
+/*Iacob Daniel*/
+body{
+    margin:0;
+}
+
+form>div{
+
+    display: flex;
+    flex-direction:column;
+    width: 35rem;
+    padding: 1rem;
+    
+}
+form>div>input{
+    margin-bottom: 0.5rem;
+    color: green;
+    border: 4.5px solid rgb(48, 248, 238);
+    border-radius: 25px;
+    height: 2rem;
+}
+@media  (max-width: 850px){
+    form>div{
+        display: flex;
+        flex-direction:column;
+        width: 20rem;
+        padding: 1rem;
+        
+    }
+    form>div>input{
+        margin-bottom: 0.5rem;
+        color: green;
+        border: 4.5px solid rgb(48, 248, 238);
+        border-radius: 25px;
+        height: 2rem;
+    }
+}
